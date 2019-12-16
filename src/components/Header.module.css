@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    height: 70px;
+    background-color: lightskyblue;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav {
+    width: 400px;
+    display: flex;
+    justify-content:space-between;
+}
+
