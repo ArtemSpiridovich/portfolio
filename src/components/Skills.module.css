@@ -1,4 +1,27 @@
 .skills {
-    height: 80vh;
+    min-height: 80vh;
     background-color: darkseagreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
+.view {
+    width: 80%;
+}
+
+.title {
+    border: 1px solid;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+

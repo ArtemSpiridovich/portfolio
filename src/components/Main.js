@@ -5,10 +5,13 @@ function Main() {
     return (
         <div className={styles.main}>
             <div className={styles.container}>
-                <div className={styles.griting}>
+                <div className={styles.greeting}>
                     <span>Привет</span>
                     <span>Меня зовут Иван Иванов</span>
                     <span>Я front-end разработчик</span>
+                </div>
+                <div className={styles.photo}>
+                    <img src=''/>
                 </div>
             </div>
         </div>

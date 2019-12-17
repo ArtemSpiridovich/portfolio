@@ -1,4 +1,23 @@
 .projects {
-    height: 100vh;
+    min-height: 100vh;
     background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    width: 80%;
+    height: 20vh;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.components {
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
 }

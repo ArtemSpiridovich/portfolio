@@ -1,4 +1,27 @@
 .contacts {
     height: 500px;
     background-color: #ee050e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.body {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.form textarea {
+    resize: none;
+    height: 150px;
 }

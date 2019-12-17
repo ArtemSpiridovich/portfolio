@@ -1,0 +1,19 @@
+.myworks {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.head {
+    background-color: grey;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
