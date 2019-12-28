@@ -13,6 +13,7 @@ function Main() {
                 <div className={styles.photo}>
                     <img src=''/>
                 </div>
+                <div className={styles.bgImg}></div>
             </div>
         </div>
     );

@@ -7,7 +7,7 @@ function Skills() {
         <div className={styles.skills}>
             <div className={styles.view}>
             <div className={styles.title}>
-                <h3>My skills</h3>
+                <h2>My skills</h2>
             </div>
             <div className={styles.blocks}>
                 <Block/>

@@ -1,14 +1,43 @@
 .main {
     min-height: 100vh;
-    background-color: rosybrown;
+    background-color: #202020;
+    color: white;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
+.bgImg {
+    background-image: url("https://images.unsplash.com/photo-1499084732479-de2c02d45fcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-size: cover;
+    background-position: center center;
+    -webkit-animation: kenburn 25s 2s alternate infinite;
+    animation: kenburn 25s 2s alternate infinite;
+}
+
+@keyframes kenburn {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    100% {
+        -webkit-transform: scale3d(1.3, 1.3, 1.3);
+        transform: scale3d(1.3, 1.3, 1.3);
+    }
+}
+@-webkit-keyframes  kenburn {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    100% {
+        -webkit-transform: scale3d(1.3, 1.3, 1.3);
+        transform: scale3d(1.3, 1.3, 1.3);
+    }
+}
+
 .container {
     width: 80%;
-    border: 1px solid;
     display: flex;
     align-items: center;
     justify-content: space-around;

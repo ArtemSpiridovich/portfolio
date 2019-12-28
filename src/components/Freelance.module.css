@@ -1,6 +1,7 @@
 .freelance {
     min-height: 350px;
-    background-color: mediumslateblue;
+    background-color: #111;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,8 +11,8 @@
 .work {
     width: 80%;
     height: 250px;
-    border: 1px solid;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    border: 1px solid;
 }

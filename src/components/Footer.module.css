@@ -1,6 +1,7 @@
 .footer {
     height: 150px;
-    background-color: #68e0ee;
+    background-color: #111;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +20,7 @@
     width: 300px;
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 .socialIcons a {
     min-width: 50px;

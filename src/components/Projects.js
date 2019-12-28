@@ -6,7 +6,7 @@ function Projects() {
     return (
         <div className={styles.projects}>
             <div className={styles.title}>
-                My projects
+                <h2>My projects</h2>
             </div>
             <div className={styles.components}>
                 <Myworks/>

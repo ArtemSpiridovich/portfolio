@@ -1,13 +1,13 @@
 .header {
     display: flex;
     height: 70px;
-    background-color: lightskyblue;
+    background-color: #111;
+    color: white;
     justify-content: center;
 }
 
 .container {
     width: 80%;
-    border: 1px solid;
     display: flex;
     justify-content: flex-end;
     align-items: center;
