@@ -6,15 +6,15 @@ function Skills() {
     return (
         <div className={styles.skills}>
             <div className={styles.view}>
-            <div className={styles.title}>
-                <h2>My skills</h2>
+                <div className={styles.title}>
+                    <h2>My skills</h2>
+                </div>
+                <div className={styles.blocks}>
+                    <Block/>
+                    <Block/>
+                    <Block/>
+                </div>
             </div>
-            <div className={styles.blocks}>
-                <Block/>
-                <Block/>
-                <Block/>
-            </div>
-        </div>
         </div>
     );
 }
