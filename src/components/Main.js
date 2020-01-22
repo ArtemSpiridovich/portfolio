@@ -6,15 +6,12 @@ function Main() {
         <div className={styles.main}>
             <div className={styles.container}>
                 <div className={styles.greeting}>
-                    <span>Привет</span>
-                    <span>Меня зовут Иван Иванов</span>
-                    <span>Я front-end разработчик</span>
+                    <span className={styles.hello}>I am Artem Spirydovich</span>
+                    <span className={styles.name}>front-end developer</span>
+                    {/*<button className={styles.button}>Contact me</button>*/}
                 </div>
-                <div className={styles.photo}>
-                    <img src=''/>
-                </div>
-                <div className={styles.bgImg}></div>
             </div>
+            <div className={styles.bgImg}></div>
         </div>
     );
 }

@@ -23,3 +23,8 @@
     height: 120px;
 }
 
+@media screen and (max-width: 390px) {
+    .block {
+        width: 100%;
+    }
+}

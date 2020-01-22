@@ -19,9 +19,19 @@
     align-items: center;
 }
 
+.title h2 {
+    margin: 0;
+}
+
 .blocks {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 1132px) {
+    .blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+}

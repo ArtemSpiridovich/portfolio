@@ -8,12 +8,12 @@
 }
 
 .foot {
-    height: 100px;
+    height: 100%;
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .socialIcons {
@@ -30,3 +30,8 @@
     border: 1px solid;
 }
 
+@media screen and (max-width: 375px) {
+    .socialIcons {
+        width: 100%;
+    }
+}

@@ -5,12 +5,12 @@ function Footer() {
     return (
         <div className={styles.footer}>
             <div className={styles.foot}>
-                Ivan Ivanov
+                Artem Spirydovich
                 <div className={styles.socialIcons}>
-                    <a href=''>VK</a>
-                    <a href=''>Insta</a>
-                    <a href=''>Telegram</a>
-                    <a href=''>Facebook</a>
+                    <a href=''></a>
+                    <a href=''></a>
+                    <a href=''></a>
+                    <a href=''></a>
                 </div>
                 <span>@2019 Все права защищены</span>
             </div>

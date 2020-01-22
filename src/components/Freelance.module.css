@@ -13,6 +13,10 @@
     height: 250px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    border: 1px solid;
+    align-items: center;
+}
+
+.work button {
+    height: 70px;
+    width: 150px;
 }

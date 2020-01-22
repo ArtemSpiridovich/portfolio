@@ -5,7 +5,7 @@ function Freelance() {
     return (
         <div className={styles.freelance}>
             <div className={styles.work}>
-                <button>yo!!!</button>
+                <button>Нанять меня</button>
             </div>
         </div>
     );
