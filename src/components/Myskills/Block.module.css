@@ -1,6 +1,5 @@
 .block {
     border: 1px solid;
-    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,22 +7,17 @@
 }
 .photo {
     background-color: grey;
-    height: 170px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
 }
 
 .head {
-    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.text {
-    height: 120px;
-}
-
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 388px) {
     .block {
         width: 100%;
     }

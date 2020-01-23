@@ -13,6 +13,7 @@ function Skills() {
                     <Block/>
                     <Block/>
                     <Block/>
+                    <Block/>
                 </div>
             </div>
         </div>

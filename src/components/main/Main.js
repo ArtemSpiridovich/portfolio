@@ -8,7 +8,7 @@ function Main() {
                 <div className={styles.greeting}>
                     <span className={styles.hello}>I am Artem Spirydovich</span>
                     <span className={styles.name}>front-end developer</span>
-                    {/*<button className={styles.button}>Contact me</button>*/}
+                    <a className={styles.button}>Contact me</a>
                 </div>
             </div>
             <div className={styles.bgImg}></div>

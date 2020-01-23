@@ -9,20 +9,20 @@
 }
 
 .title {
-    width: 80%;
+    width: 90%;
     height: 10vh;
     display: flex;
     justify-content: center;
 }
 
 .components {
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1004px) {
+@media screen and (max-width: 893px) {
     .components {
         justify-content: center;
     }
