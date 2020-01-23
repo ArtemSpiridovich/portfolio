@@ -7,6 +7,7 @@ import Projects from "./components/Myproject/Projects";
 import Freelance from "./components/Freelance/Freelance";
 import Contacts from "./components/ContactMe/Contacts";
 import Footer from "./components/Footer/Footer";
+import About from "./components/About/About";
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
       <div className='portfolio'>
           {/*<Header/>*/}
           <Main/>
+          <About/>
           <Skills/>
           <Projects/>
-          <Freelance/>
+          {/*<Freelance/>*/}
           <Contacts/>
           <Footer/>
       </div>

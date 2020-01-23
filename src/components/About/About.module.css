@@ -1,0 +1,27 @@
+.aboutbg {
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.about {
+    width: 90%;
+    display: flex;
+    color: white;
+}
+
+.text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

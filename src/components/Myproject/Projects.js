@@ -11,6 +11,7 @@ function Projects() {
             <div className={styles.components}>
                 <Myworks/>
                 <Myworks/>
+                <Myworks/>
             </div>
         </div>
     );
