@@ -1,31 +1,67 @@
-.contacts {
-    height: 100vh;
+.allElements {
+    min-height: 100vh;
     background-color: #111;
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.contacts {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textcontact {
+    width: 30%;
 }
 
 .body {
-    height: 350px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    width: 90%;
+    align-items: flex-start;
+    width: 67%;
+}
+
+.input1, .input2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.input1 input, .input2 input {
+    width: 45%;
 }
 
 .form {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    width: 500px;
 }
 
 .form textarea {
     resize: none;
     height: 150px;
+}
+
+.body button {
+    margin: 40px 0 40px;
+}
+
+.textcontact h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.body h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #fff;
 }
 
 @media screen and (max-width: 556px) {
