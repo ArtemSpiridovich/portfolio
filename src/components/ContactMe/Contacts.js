@@ -30,7 +30,7 @@ function Contacts() {
                         <div className={styles.input2}><input type='text' placeholder='Your Phone'/><input type='text' placeholder='Address'/></div>
                         <textarea placeholder='Your message...'></textarea>
                     </form>
-                    <button>send</button>
+                    <button>Submit</button>
                 </div>
             </div>
         </div>

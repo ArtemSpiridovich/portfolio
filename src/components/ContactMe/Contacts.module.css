@@ -42,8 +42,14 @@
     border-radius: 0px;
     color: white;
     font-family: 'Heebo', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 400;
+    outline: none;
+    margin: 0 5px;
+}
+
+.input1 input:focus, .input2 input:focus, .form textarea:focus {
+    border-color: #666;
 }
 
 .form {
@@ -62,8 +68,10 @@
     height: 150px;
     padding: 15px;
     font-family: 'Heebo', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 400;
+    outline: none;
+    margin: 0 5px;
 }
 
 .body button {

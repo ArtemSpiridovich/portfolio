@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './Block.module.css'
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-function Block() {
+function Block(props) {
     return (
         <div className={styles.block}>
             <div className={styles.head}>
-                <div className={styles.photo}>
-                    <img src=''/>
+                <div className={styles.photo} >
+                    <FontAwesomeIcon icon={props.icon} size='7x'/>
                 </div>
                 <span>React</span>
             </div>

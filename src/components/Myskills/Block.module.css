@@ -1,15 +1,10 @@
 .block {
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 20%;
+    height: 190px;
 
-}
-.photo {
-    background-color: grey;
-    height: 100px;
-    width: 100px;
 }
 
 .head {
