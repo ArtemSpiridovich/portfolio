@@ -9,8 +9,20 @@
     position: relative;
 }
 
+.main::after {
+    content: '';
+    background-color: #111111;
+    opacity: .8;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+}
+
 .bgImg {
-    background-image: url("https://s1.1zoom.ru/prev2/573/Joker_hero_Joker_2019_Joaquin_Phoenix_Clown_572451_300x200.jpg");
+    background-image: url('./pexels-photo-220357.jpeg');
     background-size: cover;
     background-position: center center;
     -webkit-animation: kenburn 25s 2s alternate infinite;

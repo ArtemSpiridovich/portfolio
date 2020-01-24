@@ -33,6 +33,17 @@
 
 .input1 input, .input2 input {
     width: 45%;
+    height: 40px;
+    padding: 6px 15px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background: rgba(51,51,51,.5);
+    border-radius: 0px;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .form {
@@ -43,21 +54,50 @@
 
 .form textarea {
     resize: none;
+    box-shadow: none;
+    border: none;
+    background: rgba(51,51,51,.5);
+    border-radius: 0px;
+    color: white;
     height: 150px;
+    padding: 15px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .body button {
     margin: 40px 0 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    padding: 9px 25px;
+    text-transform: capitalize;
+    display: inline-block;
+    transition: all .3s;
+    cursor: pointer;
+    background: rgba(51,51,51,.5);
+    border-radius: 0px;
 }
 
 .textcontact h2{
+    font-family: "Oswald", sans-serif;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 30px;
     color: #fff;
 }
 
+.textcontact h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
 .body h2 {
+    font-family: "Oswald", sans-serif;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 30px;
