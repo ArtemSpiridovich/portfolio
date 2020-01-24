@@ -1,13 +1,12 @@
 .myworks {
     display: flex;
     flex-direction: column;
-    border: 1px solid;
+    background-image: url('https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
     width: 360px;
     height: 390px;
 }
 
 .head {
-    background-color: grey;
     height: 300px;
     display: flex;
     justify-content: center;

@@ -15,10 +15,10 @@ function Skills() {
                     <h2>My skills</h2>
                 </div>
                 <div className={styles.blocks}>
-                    <Block icon={['fab','html5']}/>
-                    <Block icon={['fab','css3']}/>
-                    <Block icon={['fab','js-square']}/>
-                    <Block icon={['fab','react']}/>
+                    <Block icon={['fab','html5']} title='HTML5'/>
+                    <Block icon={['fab','css3']} title='CSS3'/>
+                    <Block icon={['fab','js-square']} title='JavaScript'/>
+                    <Block icon={['fab','react']} title='React'/>
                 </div>
             </div>
         </div>

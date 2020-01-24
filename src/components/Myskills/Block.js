@@ -9,10 +9,10 @@ function Block(props) {
                 <div className={styles.photo} >
                     <FontAwesomeIcon icon={props.icon} size='7x'/>
                 </div>
-                <span>React</span>
+                <h4 className={styles.name}>{props.title}</h4>
             </div>
             <div className={styles.text}>
-                this place for text!!!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi enim fugiat laboriosam ratione recusandae! Aliquid beatae est eveniet ex excepturi, explicabo facere iusto neque nostrum praesentium qui sequi voluptates voluptatibus.
             </div>
         </div>
     );

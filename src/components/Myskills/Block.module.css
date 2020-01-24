@@ -13,6 +13,11 @@
     align-items: center;
 }
 
+.name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+
 @media screen and (max-width: 388px) {
     .block {
         width: 100%;
