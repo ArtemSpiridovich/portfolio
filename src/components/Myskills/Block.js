@@ -7,7 +7,7 @@ function Block(props) {
         <div className={styles.block}>
             <div className={styles.head}>
                 <div className={styles.photo} >
-                    <FontAwesomeIcon icon={props.icon} size='7x'/>
+                    <FontAwesomeIcon icon={props.icon} size='5x'/>
                 </div>
                 <h4 className={styles.name}>{props.title}</h4>
             </div>

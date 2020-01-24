@@ -3,8 +3,7 @@
     flex-direction: column;
     align-items: center;
     width: 20%;
-    height: 190px;
-
+    padding-bottom: 30px;
 }
 
 .head {
@@ -16,10 +15,53 @@
 .name {
     font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
+    margin: 10px 0 30px;
 }
 
-@media screen and (max-width: 388px) {
+.text {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .block {
+        width: 45%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .block {
+        width: 40%;
+    }
+    .name {
+        font-size: 1.1rem;
+    }
+    .text {
+        font-size: 0.8rem;
+    }
+
+    .head {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
     .block {
         width: 100%;
+    }
+    .name {
+        font-size: 1.3rem;
+    }
+    .text {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .block {
+        width: 100%;
+    }
+    .head {
+        font-size: 10px;
     }
 }

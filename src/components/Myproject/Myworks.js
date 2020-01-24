@@ -9,7 +9,7 @@ function Myworks() {
             </div>
             <div className={styles.body}>
                 <h2>Name project</h2>
-                text
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut cum cupiditate debitis dicta dignissimos dolorem dolores in laboriosam maiores maxime necessitatibus, nostrum nulla numquam perspiciatis reiciendis sunt tempora voluptatibus?
             </div>
         </div>
     );

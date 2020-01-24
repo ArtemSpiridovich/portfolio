@@ -1,11 +1,15 @@
 .skills {
-    min-height: 60vh;
+    min-height: 100vh;
     background-color: #111;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 22px;
+    padding-bottom: 50px;
 }
 
 .view {
@@ -20,11 +24,11 @@
 }
 
 .title h2 {
-    font-size: 2.8rem;
+    font-size: 2.3rem;
     font-weight: bold;
     position: relative;
     text-transform: uppercase;
-    margin: 100px 0 50px;
+    margin: 100px 0 70px;
     color: #fff;
 }
 
@@ -34,7 +38,7 @@
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1173px) {
+@media screen and (max-width: 480px) {
     .blocks {
         flex-direction: column;
         align-items: center;
