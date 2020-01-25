@@ -162,6 +162,10 @@
         width: 120px;
     }
 
+    .Phone {
+        margin-left: 20px;
+    }
+
     .contacts {
         flex-direction: column;
         align-items: flex-start;
