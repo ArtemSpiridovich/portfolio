@@ -11,7 +11,7 @@ function Contacts() {
                         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur commodi ducimus eaque earum explicabo itaque, maxime mollitia qui velit voluptate. Alias animi ipsa itaque iure, molestiae odit quas soluta veritatis.</span>
                     </div>
                     <div className={styles.addressPhone}>
-                    <div>
+                    <div className={styles.Address}>
                         <h3>Address</h3>
                         <span>Belarus, Minsk, Surganova, 2</span>
                     </div>
