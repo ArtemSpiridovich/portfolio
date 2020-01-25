@@ -12,7 +12,7 @@
 .main::after {
     content: '';
     background-color: #111111;
-    opacity: .8;
+    opacity: .7;
     top: 0;
     bottom: 0;
     right: 0;
@@ -22,7 +22,7 @@
 }
 
 .bgImg {
-    background-image: url('./pexels-photo-220357.jpeg');
+    background-image: url('./g213-feature-2.png.imgw.1888.1888.jpeg');
     background-size: cover;
     background-position: center center;
     -webkit-animation: kenburn 25s 2s alternate infinite;
@@ -62,11 +62,12 @@
     align-items: flex-start;
     position: relative;
     z-index: 8;
+    padding-top: 70px;
 }
 
 
 .hello {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 8px;
@@ -91,7 +92,7 @@
 }
 
 .name {
-    font-size: 2.66667rem;
+    font-size: 3.66667rem;
     font-weight: bold;
     line-height: 1.2em;
     text-transform: uppercase;
@@ -117,11 +118,20 @@
     background-color: rgba(102,102,102,.8);;
 }
 
-
-
-@media screen and (max-width: 662px) {
+@media screen and (max-width: 1024px) {
     .container {
         justify-content: center;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .hello {
+        font-size: 0.8rem;
+    }
+    .name {
+        font-size: 2.66667rem;
     }
 }
 
@@ -132,6 +142,9 @@
     .hello::after {
         top: 16px;
         right: -75px;
+    }
+    .main {
+        min-height: 100vh;
     }
 }
 

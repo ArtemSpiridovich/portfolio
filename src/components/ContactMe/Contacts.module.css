@@ -1,10 +1,11 @@
+/*перенести телефон в один ряд с адресом с 551 до 420 пикселей*/
 .allElements {
     min-height: 60vh;
     background-color: #111;
     color: white;
+    padding-top: 60px;
     display: flex;
     justify-content: center;
-    padding-top: 60px;
 }
 
 .contacts {
@@ -24,46 +25,46 @@
     width: 67%;
 }
 
-.input1, .input2 {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding-bottom: 30px;
-}
-
-.input1 input, .input2 input {
-    width: 45%;
-    height: 40px;
-    padding: 6px 15px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border: none;
-    background: rgba(51,51,51,.5);
-    border-radius: 0px;
-    color: white;
-    font-family: 'Heebo', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    outline: none;
-    margin: 0 5px;
-}
-
-.input1 input:focus, .input2 input:focus, .form textarea:focus {
-    border-color: #666;
-}
-
 .form {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
+.input1, .input2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.input1 input, .input2 input {
+    width: 49%;
+    height: 40px;
+    padding: 6px 15px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background: rgba(51, 51, 51, .5);
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input1 input:focus, .input2 input:focus, .form textarea:focus {
+    border-color: #666;
+}
+
+
 .form textarea {
+    width: 100%;
     resize: none;
     box-shadow: none;
     border: none;
-    background: rgba(51,51,51,.5);
-    border-radius: 0px;
+    background: rgba(51, 51, 51, .5);
     color: white;
     height: 150px;
     padding: 15px;
@@ -71,7 +72,7 @@
     font-size: 1rem;
     font-weight: 400;
     outline: none;
-    margin: 0 5px;
+    box-sizing: border-box;
 }
 
 .body button {
@@ -85,11 +86,11 @@
     display: inline-block;
     transition: all .3s;
     cursor: pointer;
-    background: rgba(51,51,51,.5);
+    background: rgba(51, 51, 51, .5);
     border-radius: 0px;
 }
 
-.textcontact h2{
+.textcontact h2 {
     font-family: "Oswald", sans-serif;
     font-size: 30px;
     font-weight: 600;
@@ -112,8 +113,58 @@
     color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+    .textcontact {
+        width: 45%;
+    }
+
+    .body {
+        width: 52%;
+    }
+
+    .input2, .input1 {
+        flex-direction: column;
+    }
+
+    .input1 input, .input2 input {
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    .input1, .input2 {
+        padding-bottom: 0px;
+    }
+
+    .textcontact h2 {
+        margin: 30px 0 20px;
+    }
+
+    .body h2 {
+        margin: 30px 0 20px;
+    }
+
+    .allElements {
+        padding-top: 20px;
+    }
+}
+
 @media screen and (max-width: 556px) {
     .form {
         width: 100%;
     }
+
+    .contacts {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .textcontact {
+        width: 100%;
+    }
+
+    .body {
+        width: 100%;
+    }
 }
+
+

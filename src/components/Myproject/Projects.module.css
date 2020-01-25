@@ -26,12 +26,20 @@
 .components {
     width: 90%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 40px;
 }
 
 @media screen and (max-width: 893px) {
+    .components {
+        justify-content: space-between;
+    }
+    .title h2 {
+        margin: 50px 0 30px;
+    }
+}
+@media screen and (max-width: 480px) {
     .components {
         justify-content: center;
     }
