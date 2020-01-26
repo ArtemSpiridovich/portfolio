@@ -12,7 +12,7 @@
 .main::after {
     content: '';
     background-color: #111111;
-    opacity: .7;
+    opacity: .8;
     top: 0;
     bottom: 0;
     right: 0;
@@ -22,7 +22,7 @@
 }
 
 .bgImg {
-    background-image: url('./g213-feature-2.png.imgw.1888.1888.jpeg');
+    background-image: url('https://www.grtimes.gr/wp-content/uploads/2019/04/upologistis.jpg');
     background-size: cover;
     background-position: center center;
     -webkit-animation: kenburn 25s 2s alternate infinite;
