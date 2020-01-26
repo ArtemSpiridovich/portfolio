@@ -2,7 +2,7 @@
     min-height: 60vh;
     background-color: #111;
     color: white;
-    padding-top: 60px;
+    padding: 60px 0 100px;
     display: flex;
     justify-content: center;
 }
@@ -163,22 +163,8 @@
         width: 100%;
     }
 
-    .Address {
-        width: 120px;
-    }
-
-    .Phone {
-        margin-left: 20px;
-    }
-
     .contacts {
         align-items: flex-start;
-    }
-
-    .addressPhone {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
     }
 
     .textcontact {
