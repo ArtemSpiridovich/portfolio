@@ -27,6 +27,10 @@
     color: white;
 }
 
+.socialIcons a:hover{
+    opacity: .3;
+}
+
 @media screen and (max-width: 375px) {
     .socialIcons {
         width: 100%;
