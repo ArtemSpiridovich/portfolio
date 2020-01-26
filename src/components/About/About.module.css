@@ -43,6 +43,11 @@
     height: 100%;
     object-fit: cover;
 }
+@media screen and (max-width: 1024px) {
+    .aboutbg {
+        min-height: max-content;
+    }
+}
 
 @media screen and (max-width: 900px) {
     .about {

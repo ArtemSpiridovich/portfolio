@@ -117,6 +117,11 @@
     flex-direction: row;
     justify-content: space-between;
 }
+@media screen and (max-width: 1024px) {
+    .allElements {
+        min-height: max-content;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .textcontact {

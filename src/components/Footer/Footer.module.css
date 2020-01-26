@@ -22,13 +22,15 @@
     justify-content: space-between;
     color: white;
 }
+
 .socialIcons a {
-    text-decoration:none;
+    text-decoration: none;
     color: white;
 }
 
-.socialIcons a:hover{
+.socialIcons a:hover {
     opacity: .3;
+    transition: all 0.3s;
 }
 
 @media screen and (max-width: 375px) {
