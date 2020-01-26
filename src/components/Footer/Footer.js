@@ -15,7 +15,7 @@ function Footer() {
                 <div className={styles.socialIcons}>
                     <a href='https://vk.com/artitsgood'><FontAwesomeIcon icon={['fab','vk']} size='2x' /></a>
                     <a href='https://t.me/artitsgood'><FontAwesomeIcon icon={['fab','telegram-plane']} size='2x' /></a>
-                    <a href='https://www.instagram.com/temich.art/?hl=ru'><FontAwesomeIcon icon={['fab','facebook']} size='2x' /></a>
+                    <a href='https://www.facebook.com/profile.php?id=100043878231093&ref=bookmarks'><FontAwesomeIcon icon={['fab','facebook']} size='2x' /></a>
                     <a href='https://www.instagram.com/temich.art/?hl=ru'><FontAwesomeIcon icon={['fab','instagram']} size='2x' /></a>
                 </div>
                 <span>@2019 Все права защищены</span>
