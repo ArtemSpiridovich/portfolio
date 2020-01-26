@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1bc0b4d74d6a3f549d7787e0992b17a4",
+    "revision": "9ffb9a16505d4d50337ae5c24bc7796e",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "376cd0287d4ebf709219",
-    "url": "/portfolio/static/css/main.e2d0bb25.chunk.css"
+    "revision": "be4bc1928dca96316e91",
+    "url": "/portfolio/static/css/main.d368105e.chunk.css"
   },
   {
     "revision": "426c58832b7900b9491b",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.cc8cff19.chunk.js.LICENSE"
   },
   {
-    "revision": "376cd0287d4ebf709219",
+    "revision": "be4bc1928dca96316e91",
     "url": "/portfolio/static/js/main.15715d01.chunk.js"
   },
   {
@@ -26,5 +26,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b521c8c1a541cc71b83a38027fd18780",
     "url": "/portfolio/static/media/foto.b521c8c1.jpg"
+  },
+  {
+    "revision": "b8d74a8f36091c647c425eacd1f5705b",
+    "url": "/portfolio/static/media/oboi7.com-85150.b8d74a8f.jpg"
   }
 ]);
