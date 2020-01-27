@@ -22,7 +22,7 @@
 }
 
 .bgImg {
-    background-image: url('./oboi7.com-85150.jpg');
+    background-image: url('../../assets/img/oboi7.com-85150.jpg');
     background-size: cover;
     background-position: center center;
     -webkit-animation: kenburn 25s 2s alternate infinite;
