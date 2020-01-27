@@ -6,10 +6,24 @@ function About() {
     return (
         <div className={styles.aboutbg}>
             <div className={styles.about}>
-                <div className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam debitis delectus eaque porro quae
-                    quibusdam sapiente sequi suscipit totam ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam debitis delectus eaque porro quae
-                    quibusdam sapiente sequi suscipit totam ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam debitis delectus eaque porro quae
-                    quibusdam sapiente sequi suscipit totam ullam.
+                <div className={styles.text}>
+                    <span className={styles.preName}>
+                        Expert Front-end developer
+                    </span>
+                    <div className={styles.hover}>
+                    <h3 className={styles.Name}>
+                        About Me
+                    </h3>
+                    </div>
+                    <span className={styles.aboutMe}>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci aut culpa ducimus exercitationem, nemo neque placeat qui sed veniam. Dolorem dolores iure nihil nulla quas sunt temporibus vero! Ducimus.
+                    </span>
+                    <span className={styles.aboutMe}>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci aut culpa ducimus exercitationem, nemo neque placeat qui sed veniam. Dolorem dolores iure nihil nulla quas sunt temporibus vero! Ducimus.
+                    </span>
+                    <a className={styles.button}>
+                        Download CV
+                    </a>
                 </div>
                 <div className={styles.photo}>
                     <img src={image}/>

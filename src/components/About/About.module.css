@@ -1,38 +1,95 @@
 .aboutbg {
+    min-height: max-content;
     background-color: #202020;
-    padding: 100px 0;
+    padding: 100px 0 100px;
     display: flex;
     justify-content: center;
-    min-height: 100vh;
 }
 
 .about {
     width: 90%;
     display: flex;
-    /*justify-content: space-around;*/
+    justify-content: space-around;
     align-items: center;
     color: white;
-    padding-bottom: 100px;
 }
 
 .text {
     width: 450px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     position: relative;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
 }
 
+.preName {
+    font-size: 20px;
+    color: #ddd;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.Name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    position: relative;
+    margin: 10px 0 50px;
+    z-index: 2;
+}
+
+.hover {
+    position: relative;
+}
+
+.Name::before {
+    content: "";
+    position: absolute;
+    right: 82px;
+    top: 70px;
+    width: 95px;
+    height: 5px;
+    background: rgba(102,102,102,.8);
+    transition: all .3s;
+}
+
+.hover:hover .Name::before {
+    width: 177px;
+    right: 0px;
+}
+
+.aboutMe {
+    margin-bottom: 18px;
+    color: #999;
+    font-size: 20px;
+}
+
+.button {
+    font-family: "Oswald", sans-serif;
+    height: 50px;
+    line-height: 47px;
+    font-size: 1.06667rem;
+    color: #fff;
+    border: 1px solid rgba(102,102,102,.8);
+    padding: 0 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.button:hover{
+    background-color: rgba(102,102,102,.8);;
+}
+
 .photo {
     width: 570px;
     height: 688px;
     padding: 15px;
-    /*background-image: url('./foto.jpg');*/
-    /*background-size: cover;*/
-    /*background-position: center center;*/
     border: 1px solid #333;
     display: flex;
     justify-content: center;
@@ -54,6 +111,14 @@
     .about {
         flex-direction: column;
         align-items: center;
+    }
+
+    .aboutbg {
+        padding: 50px 0 50px;
+    }
+
+    .button {
+        margin-bottom: 50px;
     }
 }
 @media screen and (max-width: 570px) {
