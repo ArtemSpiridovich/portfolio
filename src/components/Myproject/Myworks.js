@@ -4,6 +4,9 @@ import styles from './Myworks.module.css'
 function Myworks() {
     return (
         <div className={styles.myworks}>
+            <div className={styles.textName}>
+
+            </div>
             {/*<div className={styles.head}>*/}
             {/*    <button>watch</button>*/}
             {/*</div>*/}
