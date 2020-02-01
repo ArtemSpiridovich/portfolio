@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Main.module.css'
-import * as Scroll from 'react-scroll';
-import {Link, Element, Events, animateScroll as scroll, scrollSpy, scroller} from 'react-scroll'
+import {Link} from 'react-scroll'
 
 function Main() {
     return (

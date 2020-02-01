@@ -67,6 +67,7 @@
 
 
 .hello {
+    padding-left: 3px;
     font-size: 1.1rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -80,7 +81,7 @@
     content: "";
     position: absolute;
     right: -60px;
-    top: 9px;
+    top: 11px;
     width: 65px;
     height: 1px;
     background: #fff;
