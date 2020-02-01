@@ -9,18 +9,74 @@
     overflow: hidden;
 }
 
-.myworks:hover .textName::after {
+.myworks:hover .textName1::after {
     top: 0;
 }
 
-.textName {
+.textName1 {
     width: 100%;
     height: 100%;
     position: relative;
 }
 
-.textName::after {
-    content: "PROJECT";
+.textName1::after {
+    content: "Dog Game";
+    font-size: 2rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 110%;
+    background-color: #111;
+    opacity: .6;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+.myworks:hover .textName2::after {
+    top: 0;
+}
+
+.textName2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.textName2::after {
+    content: "Social Network";
+    font-size: 2rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 110%;
+    background-color: #111;
+    opacity: .6;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+.myworks:hover .textName3::after {
+    top: 0;
+}
+
+.textName3 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.textName3::after {
+    content: "Counter";
     font-size: 2rem;
     font-family: "Oswald", sans-serif;
     font-weight: 500;

@@ -1,11 +1,17 @@
 import React from 'react';
 import styles from './Myworks.module.css'
 
-function Myworks() {
+function Myworks(props) {
     return (
         <div className={styles.myworks}>
-            <div className={styles.textName}>
-            </div>
+            {props.id===0
+            ? <div className={styles.textName1}/>
+            : props.id===1
+            ? <div className={styles.textName2}/>
+            : props.id===2
+            ? <div className={styles.textName3}/>
+            : ''
+            }
             {/*<div className={styles.head}>*/}
             {/*    <button>watch</button>*/}
             {/*</div>*/}

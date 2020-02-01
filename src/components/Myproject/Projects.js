@@ -9,9 +9,9 @@ function Projects() {
                 <h2>My projects</h2>
             </div>
             <div className={styles.components}>
-                <Myworks/>
-                <Myworks/>
-                <Myworks/>
+               {
+                   [0, 1, 2].map(el => <Myworks id={el} key={el}/>)
+               }
             </div>
         </div>
     );
