@@ -151,6 +151,17 @@
     .myworks {
         height:250px;
     }
+    .textName1::after {
+        top:0;
+    }
+
+    .textName2::after {
+        top:0;
+    }
+
+    .textName3::after {
+        top:0;
+    }
 }
 @media screen and (max-width: 480px) {
     .myworks {

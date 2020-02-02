@@ -144,11 +144,11 @@
 
 @media screen and (max-width: 529px) {
     .hello {
-        width: 160px;
+        width: 170px;
     }
     .hello::after {
         top: 16px;
-        right: -75px;
+        right: -65px;
     }
 }
 
