@@ -30,8 +30,8 @@ function Contacts() {
                     <form className={styles.form}
                           action="https://formspree.io/xknrjrzb"
                           method="POST">
-                        <div className={styles.input1}><input name={'name'} placeholder='Your Name'/><input name={'email'} placeholder='Your email'/></div>
-                        <div className={styles.input2}><input name={'phone'} placeholder='Your Phone'/><input name={'subject'} placeholder='Subject'/></div>
+                        <div className={styles.input1}><input autocomplete="off" type="text" name={'name'} placeholder='Your Name'/><input autocomplete="off" name={'email'} placeholder='Your email'/></div>
+                        <div className={styles.input2}><input autocomplete="off" type="text" name={'phone'} placeholder='Your Phone'/><input autocomplete="off" name={'subject'} placeholder='Subject'/></div>
                         <textarea name={'message'} placeholder='Your message...'>
 
                         </textarea>
