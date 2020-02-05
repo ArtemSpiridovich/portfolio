@@ -9,16 +9,18 @@ library.add(fab)
 
 function Skills() {
     return (
-        <div className={styles.skills}>
-            <div className={styles.view}>
-                <div className={styles.title}>
-                    <h2>My skills</h2>
-                </div>
-                <div className={styles.blocks}>
-                    <Block icon={['fab','html5']} title='HTML5'/>
-                    <Block icon={['fab','css3']} title='CSS3'/>
-                    <Block icon={['fab','js-square']} title='JavaScript'/>
-                    <Block icon={['fab','react']} title='React'/>
+        <div className='skills'>
+            <div className={styles.skills}>
+                <div className={styles.view}>
+                    <div className={styles.title}>
+                        <h2>My skills</h2>
+                    </div>
+                    <div className={styles.blocks}>
+                        <Block icon={['fab', 'html5']} title='HTML5'/>
+                        <Block icon={['fab', 'css3']} title='CSS3'/>
+                        <Block icon={['fab', 'js-square']} title='JavaScript'/>
+                        <Block icon={['fab', 'react']} title='React'/>
+                    </div>
                 </div>
             </div>
         </div>

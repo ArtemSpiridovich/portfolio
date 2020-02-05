@@ -4,14 +4,16 @@ import Myworks from "./Myworks";
 
 function Projects() {
     return (
-        <div className={styles.projects}>
-            <div className={styles.title}>
-                <h2>My projects</h2>
-            </div>
-            <div className={styles.components}>
-               {
-                   [0, 1, 2].map(el => <Myworks id={el} key={el}/>)
-               }
+        <div className='projects'>
+            <div className={styles.projects}>
+                <div className={styles.title}>
+                    <h2>My projects</h2>
+                </div>
+                <div className={styles.components}>
+                    {
+                        [0, 1, 2].map(el => <Myworks id={el} key={el}/>)
+                    }
+                </div>
             </div>
         </div>
     );

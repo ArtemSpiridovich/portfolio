@@ -5,6 +5,8 @@ import Fade from 'react-reveal/Fade';
 import {fab} from '@fortawesome/free-brands-svg-icons';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {library} from "@fortawesome/fontawesome-svg-core";
+import BurgerMenu from "./burgerMenu";
+
 
 library.add(fab);
 
@@ -26,52 +28,13 @@ class Main extends Component {
     }
 
     render() {
-
-        let classForNavbar = this.state.menuIsShow ? styles.navbaropen : styles.navbarclose;
-
         return (
-            <div>
+            <div className='main'>
                 <div className={styles.menuOpen} onClick={this.onButtonClickOpen}>
-                <span>
-
-                </span>
-                    <span>
-
-                </span>
-                    <span>
-
-                </span>
+                    <span></span><span></span><span></span>
                 </div>
-                <ul className={classForNavbar}>
-                    <li className={styles.home}>
-                        <a href="#home">
-                            <img src=''/>
-                        </a>
-                    </li>
-                    <li className={styles.about}>
-                        <a href="#about">
-                            <img src=''/>
-                        </a>
-                    </li>
-                    <li className={styles.skills}>
-                        <a href="#skills">
-                            <img src=''/>
-                        </a>
-                    </li>
-                    <li className={styles.projects}>
-                        <a href="#projects">
-                            <img src=''/>
-                        </a>
-                    </li>
-                    <li className={styles.contact}>
-                        <a href="#contact">
-                            <img src=''/>
-                        </a>
-                    </li>
-                    <div className={styles.menuClose} onClick={this.onButtonClickClose}>
-                        ×
-                    </div>
-                </ul>
+                <BurgerMenu menuIsShow={this.state.menuIsShow}
+                            onButtonClickClose={this.onButtonClickClose}/>
                 <div className={styles.main}>
                     <div className={styles.container}>
                         <div className={styles.greeting}>
