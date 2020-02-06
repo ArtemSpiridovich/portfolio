@@ -35,6 +35,9 @@ class Main extends Component {
                 </div>
                 <BurgerMenu menuIsShow={this.state.menuIsShow}
                             onButtonClickClose={this.onButtonClickClose}/>
+                <div onClick={this.onButtonClickClose} className={styles.closeBurger}>
+
+                </div>
                 <div className={styles.main}>
                     <div className={styles.container}>
                         <div className={styles.greeting}>

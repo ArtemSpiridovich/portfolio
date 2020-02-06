@@ -17,10 +17,10 @@ function About() {
                             </h3>
                         </div>
                         <span className={styles.aboutMe}>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci aut culpa ducimus exercitationem, nemo neque placeat qui sed veniam. Dolorem dolores iure nihil nulla quas sunt temporibus vero! Ducimus.
+                        Welcome to my portfolio site. My name is Artyom Spiridovich and I am a front-end developer.
                     </span>
                         <span className={styles.aboutMe}>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci aut culpa ducimus exercitationem, nemo neque placeat qui sed veniam. Dolorem dolores iure nihil nulla quas sunt temporibus vero! Ducimus.
+                         On my site you can find examples of my projects, as well as my skills in using the React.JS library. If you liked my work, contact me.
                     </span>
                         <a className={styles.button}>
                             Download CV

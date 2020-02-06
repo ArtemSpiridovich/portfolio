@@ -12,7 +12,7 @@ function Block(props) {
                 <h4 className={styles.name}>{props.title}</h4>
             </div>
             <div className={styles.text}>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi enim fugiat laboriosam ratione recusandae! Aliquid beatae est eveniet ex excepturi, explicabo facere iusto neque nostrum praesentium qui sequi voluptates voluptatibus.
+                {props.text}
             </div>
         </div>
     );

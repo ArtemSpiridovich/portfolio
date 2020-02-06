@@ -8,12 +8,12 @@ function Contacts() {
                 <div className={styles.textcontact}>
                     <div >
                         <h2>My Contacts</h2>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur commodi ducimus eaque earum explicabo itaque, maxime mollitia qui velit voluptate. Alias animi ipsa itaque iure, molestiae odit quas soluta veritatis.</span>
+                        <span>If you want to contact me, write your message in the form on the right and send me an e-mail. I will definitely read everything!</span>
                     </div>
                     {/*<div className={styles.addressPhone}>*/}
                     <div >
                         <h3>Address</h3>
-                        <span>Belarus, Minsk, Surganova, 2</span>
+                        <span>2 Surganova, Minsk, Belarus</span>
                     </div>
                     <div >
                         <h3>Phone</h3>
