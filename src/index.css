@@ -27,11 +27,15 @@ code {
 }
 
 #go-top::after {
-  content: '▲';
+  content: '';
+  background-image: url('../src/assets/img/buttonUp.png');
+  background-position: center center;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  border-color: #111111;
   font-weight: 600;
   font-size: 2rem;
-  border-radius: 50%;
-  top: 0;
   bottom: 0;
   right: 10px;
   display: flex;

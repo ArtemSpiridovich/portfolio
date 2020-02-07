@@ -141,12 +141,12 @@
     .myworks {
         height:250px;
     }
-    .textName1::after, .textName2::after, .textName3::after {
+    .textName1::after, .textName2::after, .textName3::after, .textName1::before, .textName2::before, .textName3::before {
         top:0;
     }
 
     .textName1::after, .textName2::after, .textName3::after {
-        opacity: .5;
+        opacity: .6;
     }
 
 }

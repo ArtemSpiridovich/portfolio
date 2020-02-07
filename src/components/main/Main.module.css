@@ -506,6 +506,17 @@ a:visited, a:active, a {
     .main::before {
         display: none;
     }
+}
+
+@media screen and (max-width: 529px) {
+    .hello {
+        width: 170px;
+    }
+
+    .hello::after {
+        top: 16px;
+        right: -65px;
+    }
 
     .navbaropen {
         background-color: white;
@@ -537,17 +548,6 @@ a:visited, a:active, a {
 
     .contactImg {
         height: 145px;
-    }
-}
-
-@media screen and (max-width: 529px) {
-    .hello {
-        width: 170px;
-    }
-
-    .hello::after {
-        top: 16px;
-        right: -65px;
     }
 }
 
