@@ -17,7 +17,7 @@ function Footer() {
                     <a href='https://www.facebook.com/profile.php?id=100043878231093&ref=bookmarks' target='_blank'><FontAwesomeIcon icon={['fab','facebook']} size='2x' /></a>
                     <a href='https://www.instagram.com/temich.art/?hl=ru' target='_blank'><FontAwesomeIcon icon={['fab','instagram']} size='2x' /></a>
                 </div>
-                <span>@2019 Все права защищены</span>
+                <span className={styles.rootdefendens}>©2019 Все права защищены</span>
             </div>
         </div>
     );

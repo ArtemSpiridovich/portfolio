@@ -20,23 +20,20 @@ code {
   right: 10px;
   cursor:pointer;
   display:none;
-  width: 50px;
-  height: 50px;
   background: #111111;
   opacity: 1;
   border-radius: 50%;
+  z-index: 99999999;
 }
 
 #go-top::after {
-  content: 'Go Up';
+  content: '▲';
   font-weight: 600;
-  font-size: 1rem;
-  background-color: #111111;
+  font-size: 2rem;
   border-radius: 50%;
   top: 0;
   bottom: 0;
-  left: 0;
-  right: 0;
+  right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,4 +43,10 @@ code {
 
 #go-top:hover {
   background: #666666;
+}
+
+@media screen and (max-width: 375px) {
+  #go-top::after {
+    right: -5px;
+  }
 }

@@ -21,6 +21,18 @@
     display: flex;
     justify-content: space-between;
     color: white;
+    transition: 0.5s all;
+}
+
+.rootdefendens {
+    letter-spacing: 0.1em;
+    transition: 0.5s all;
+    position: relative;
+    z-index: 3;
+}
+
+.rootdefendens:hover {
+    letter-spacing: 0.3em;
 }
 
 .socialIcons a {
@@ -38,5 +50,6 @@
 @media screen and (max-width: 375px) {
     .socialIcons {
         width: 100%;
+        justify-content: space-around;
     }
 }
