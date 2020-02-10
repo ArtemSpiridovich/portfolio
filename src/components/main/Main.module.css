@@ -36,6 +36,7 @@
 }
 
 .menuOpen {
+    cursor: pointer;
     text-rendering: auto;
     background-color: #1e1e1e;
     outline: none;
@@ -143,6 +144,7 @@
 
 .homeImg::after, .aboutImg::after, .skillsImg::after, .projectsImg::after, .contactImg::after {
     content: '';
+    cursor: pointer;
     background-color: #111111;
     opacity: 0;
     top: 0;
@@ -168,6 +170,7 @@
 
 .homeImg::before {
     position: absolute;
+    cursor: pointer;
     left: 0;
     top: 0;
     width: 100%;
@@ -204,6 +207,7 @@
 }
 
 .aboutImg::before {
+    cursor: pointer;
     position: absolute;
     left: 0;
     top: 0;
@@ -241,6 +245,7 @@
 }
 
 .skillsImg::before {
+    cursor: pointer;
     position: absolute;
     left: 0;
     top: 0;
@@ -278,6 +283,7 @@
 }
 
 .projectsImg::before {
+    cursor: pointer;
     position: absolute;
     left: 0;
     top: 0;
@@ -315,6 +321,7 @@
 }
 
 .contactImg::before {
+    cursor: pointer;
     position: absolute;
     left: 0;
     top: 0;
@@ -355,6 +362,7 @@
 
 .socialLinks a {
     position: relative;
+    cursor: pointer;
     z-index: 10;
 }
 
@@ -465,6 +473,7 @@ a:visited, a:active, a {
     letter-spacing: 1px;
     display: inline-block;
     transition: all 0.3s;
+    cursor: pointer;
 }
 
 .button:hover {

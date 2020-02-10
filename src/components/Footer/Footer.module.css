@@ -8,6 +8,7 @@
 }
 
 .foot {
+    cursor: inherit;
     height: 100%;
     width: 90%;
     display: flex;
@@ -29,6 +30,7 @@
     transition: 0.5s all;
     position: relative;
     z-index: 3;
+    cursor: default;
 }
 
 .rootdefendens:hover {

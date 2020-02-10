@@ -79,6 +79,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     display: inline-block;
+    cursor: pointer;
     transition: all 0.3s;
 }
 
