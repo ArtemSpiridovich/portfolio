@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from './Projects.module.css'
 import Myworks from "./Myworks";
+import counterImg from './../../assets/img/Counter.jpg'
+import socialImg from './../../assets/img/SocioalNetwork.jpg'
+import dogImg from './../../assets/img/dogapp.jpg'
 
 function Projects() {
     return (
@@ -10,9 +13,9 @@ function Projects() {
                     <h2>My projects</h2>
                 </div>
                 <div className={styles.components}>
-                    {
-                        [0, 1, 2].map(el => <Myworks id={el} key={el}/>)
-                    }
+                    <Myworks nameProject='Dog Game' background={dogImg} hrefToProps='https://artemspiridovich.github.io/game-dog/'/>
+                    <Myworks nameProject='Social Network' background={socialImg} hrefToProps='https://github.com/ArtemSpiridovich/social-network'/>
+                    <Myworks nameProject='Counter' background={counterImg} hrefToProps='https://github.com/ArtemSpiridovich/Counter'/>
                 </div>
             </div>
         </div>

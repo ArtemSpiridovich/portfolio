@@ -361,9 +361,15 @@
 }
 
 .socialLinks a {
+    color: silver;
     position: relative;
     cursor: pointer;
     z-index: 10;
+    transition: 0.4s;
+}
+
+.socialLinks a:hover {
+    color: white;
 }
 
 .socialLinks::before {
@@ -375,10 +381,6 @@
     left: 10px;
     top: -60px;
     z-index: 1000;
-}
-
-a:visited, a:active, a {
-    color: white;
 }
 
 .bgImg {
