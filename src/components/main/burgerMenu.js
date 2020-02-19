@@ -17,7 +17,6 @@ class BurgerMenu extends Component {
                             <Link className={styles.homeImg} to='main' spy={true}
                                   smooth={true}
                                   duration={1000}>
-                                {/*<img src={mainScreen}/>*/}
                             </Link>
                         </li>
                     </div>
@@ -27,7 +26,6 @@ class BurgerMenu extends Component {
                                   smooth={true}
                                   offset={60}
                                   duration={1000}>
-                                {/*<img src={aboutScreen}/>*/}
                             </Link>
                         </li>
                     </div>
@@ -36,7 +34,6 @@ class BurgerMenu extends Component {
                             <Link className={styles.skillsImg} to='skills' spy={true}
                                   smooth={true}
                                   duration={1000}>
-                                {/*<img src={skillScreen}/>*/}
                             </Link>
                         </li>
                     </div>
@@ -46,7 +43,6 @@ class BurgerMenu extends Component {
                                   smooth={true}
                                   offset={80}
                                   duration={1000}>
-                                {/*<img src={projectScreen}/>*/}
                             </Link>
                         </li>
                     </div>
@@ -56,7 +52,6 @@ class BurgerMenu extends Component {
                                   smooth={true}
                                   offset={-70}
                                   duration={1000}>
-                                {/*<img src={contactScreen}/>*/}
                             </Link>
                         </li>
                     </div>
