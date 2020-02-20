@@ -23,6 +23,7 @@
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+    user-select: none;
 }
 
 .preName {

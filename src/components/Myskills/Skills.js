@@ -16,12 +16,10 @@ function Skills() {
                         <h2>My skills</h2>
                     </div>
                     <div className={styles.blocks}>
-                        <Block icon={['fab', 'html5']} title='HTML5' text='HTML5 is a software solution stack that defines the properties and behaviors of web page content by implementing a markup-based pattern to it.
-
-HTML5 was the fifth and last ma...'/>
-                        <Block icon={['fab', 'css3']} title='CSS3' text='Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone...'/>
-                        <Block icon={['fab', 'js-square']} title='JavaScript' text='JavaScript, often abbreviated as JS, is a high-level, just-in-time compiled, multi-paradigm programming language that conforms to the ECMAScript specification. JavaScript...'/>
-                        <Block icon={['fab', 'react']} title='React' text='React (also known as React.js or ReactJS) is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies...'/>
+                        <Block icon={['fab', 'html5']} title='HTML5' text='The correct use of block names with tags to create semantic layout. Using html to create any blocks on the site.'/>
+                        <Block icon={['fab', 'css3']} title='CSS3' text='the use of CSS to style the site, also cross-browser layout, semantic layout, Material UI. Using a variety of libraries and animations.'/>
+                        <Block icon={['fab', 'js-square']} title='JavaScript' text='Using JavaScript to write logic. Understanding the structure of the tree virtual DOM. knowledge of the principles of object-oriented programming.'/>
+                        <Block icon={['fab', 'react']} title='React' text="Using the React.js library to write applications. FLUX Cycle, HOC, REST API, react-redux, AJAX, axios. Understanding the component life cycle and asynchronous queries and operations."/>
                     </div>
                 </div>
             </div>

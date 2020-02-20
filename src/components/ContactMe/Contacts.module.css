@@ -12,6 +12,7 @@
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-between;
+    user-select: none;
 }
 
 .textcontact {

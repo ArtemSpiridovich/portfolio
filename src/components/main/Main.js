@@ -58,8 +58,8 @@ class Main extends Component {
                         <a href='https://t.me/artitsgood' target='_blank'><FontAwesomeIcon
                             icon={['fab', 'telegram-plane']}
                             size='1x'/></a>
-                        <a href='https://www.instagram.com/temich.art/?hl=ru' target='_blank'><FontAwesomeIcon
-                            icon={['fab', 'instagram']} size='1x'/></a>
+                        <a href='https://github.com/ArtemSpiridovich' target='_blank'><FontAwesomeIcon
+                            icon={['fab', 'github']} size='1x'/></a>
                     </div>
                 </div>
             </div>
