@@ -520,7 +520,10 @@
     }
 }
 
-@media screen and (max-width: 529px) {
+@media screen and (max-width: 550px) {
+    .greeting {
+        width: 262px;
+    }
     .hello {
         width: 170px;
     }
@@ -529,7 +532,9 @@
         top: 16px;
         right: -65px;
     }
+}
 
+@media screen and (max-width: 529px) {
     .navbaropen {
         background-color: white;
         padding: 0 0 25px;

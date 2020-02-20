@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './About.module.css'
 import image from '../../assets/img/MyPhoto.jpg'
-// import {pathToFile} from './mySummary.docx'
+// import {pathToFile} from './mySummary.txt'
 
 function About() {
     return (
@@ -23,7 +23,7 @@ function About() {
                         <span className={styles.aboutMe}>
                          On my site you can find examples of my projects, as well as my skills in using the React.JS library. If you liked my work, contact me.
                     </span>
-                        <a href='./mySummary.docx' download className={styles.button}>
+                        <a href='https://github.com/ArtemSpiridovich/portfolio/raw/master/src/components/About/mySummary.docx' className={styles.button}>
                             Download CV
                         </a>
                     </div>

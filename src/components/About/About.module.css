@@ -60,7 +60,7 @@
 
 .hover:hover .Name::before {
     width: 177px;
-    right: 0px;
+    right: 0;
 }
 
 .aboutMe {
