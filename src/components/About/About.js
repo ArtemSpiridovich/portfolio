@@ -23,7 +23,7 @@ function About() {
                         <span className={styles.aboutMe}>
                          On my site you can find examples of my projects, as well as my skills in using the React.JS library. If you liked my work, contact me.
                     </span>
-                        <a href='' className={styles.button}>
+                        <a href='https://hh.ru/resume_converter/%D0%A1%D0%BF%D0%B8%D1%80%D0%B8%D0%B4%D0%BE%D0%B2%D0%B8%D1%87%20%D0%90%D1%80%D1%82%D0%B5%D0%BC%20%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87.doc?hash=fb995248ff079d3f400039ed1f4a3276733853&type=rtf&hhtmSource=user_resumes_list&hhtmFrom=user_resumes_list' className={styles.button}>
                             Download CV
                         </a>
                     </div>
