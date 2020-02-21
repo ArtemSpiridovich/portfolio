@@ -23,7 +23,7 @@ function About() {
                         <span className={styles.aboutMe}>
                          On my site you can find examples of my projects, as well as my skills in using the React.JS library. If you liked my work, contact me.
                     </span>
-                        <a href='https://github.com/ArtemSpiridovich/portfolio/raw/master/src/components/About/mySummary.txt' className={styles.button}>
+                        <a href='' className={styles.button}>
                             Download CV
                         </a>
                     </div>
