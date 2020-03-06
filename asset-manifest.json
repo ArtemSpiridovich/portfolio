@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6ef9e553.chunk.css",
-    "main.js": "/portfolio/static/js/main.4c17cfc7.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4c17cfc7.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.19996ef0.chunk.css",
+    "main.js": "/portfolio/static/js/main.88382f79.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.88382f79.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.860ade9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.860ade9b.js.map",
     "static/js/2.ea13f109.chunk.js": "/portfolio/static/js/2.ea13f109.chunk.js",
     "static/js/2.ea13f109.chunk.js.map": "/portfolio/static/js/2.ea13f109.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.b0c7d9ae2cc73746c4417ab0b75a15de.js": "/portfolio/precache-manifest.b0c7d9ae2cc73746c4417ab0b75a15de.js",
+    "precache-manifest.2a2157be5cfd6e1bda8b3f27e38a6a77.js": "/portfolio/precache-manifest.2a2157be5cfd6e1bda8b3f27e38a6a77.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.6ef9e553.chunk.css.map": "/portfolio/static/css/main.6ef9e553.chunk.css.map",
+    "static/css/main.19996ef0.chunk.css.map": "/portfolio/static/css/main.19996ef0.chunk.css.map",
     "static/js/2.ea13f109.chunk.js.LICENSE": "/portfolio/static/js/2.ea13f109.chunk.js.LICENSE",
-    "static/media/Main.module.css": "/portfolio/static/media/skillsImg.7b8f118e.jpg",
+    "static/media/Main.module.css": "/portfolio/static/media/skills.021443f3.jpg",
     "static/media/Counter.jpg": "/portfolio/static/media/Counter.28c16d5f.jpg",
     "static/media/MyPhoto.jpg": "/portfolio/static/media/MyPhoto.bcc74e35.jpg",
     "static/media/SocioalNetwork.jpg": "/portfolio/static/media/SocioalNetwork.e595195f.jpg",
-    "static/media/dogapp.jpg": "/portfolio/static/media/dogapp.220ff2d5.jpg",
+    "static/media/todolist.jpg": "/portfolio/static/media/todolist.d54d3eb8.jpg",
     "static/media/index.css": "/portfolio/static/media/up-arrow.8dac8c39.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.860ade9b.js",
     "static/js/2.ea13f109.chunk.js",
-    "static/css/main.6ef9e553.chunk.css",
-    "static/js/main.4c17cfc7.chunk.js"
+    "static/css/main.19996ef0.chunk.css",
+    "static/js/main.88382f79.chunk.js"
   ]
 }
